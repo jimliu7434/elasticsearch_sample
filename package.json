@@ -1,0 +1,15 @@
+{
+  "name": "elastic_sample",
+  "version": "1.0.0",
+  "description": "elasticsearch ",
+  "scripts": {
+    "imgbuild": "docker build -t elasticsearch:5.6.5 -f Dockerfile ."
+  },
+  "main": "index.js",
+  "repository": "https://github.com/jimliu7434/elasticsearch_sample.git",
+  "author": "jimliu7434 <jimliu7434@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^15.0.0"
+  }
+}
